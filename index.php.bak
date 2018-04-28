@@ -1,0 +1,8 @@
+<?php  
+    //单入口文件  
+    define('THINK_PATH','./ThinkPHP/'); //项目名称(项目指前台项目)  
+    define('APP_NAME','home');
+    define('APP_PATH','./home/'); //项目路径(通常与项目名称一致) 
+	require_once THINK_PATH.'ThinkPHP.php';
+     App::run();
+?>  
